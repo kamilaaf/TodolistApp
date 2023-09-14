@@ -20,4 +20,5 @@ formtTask.addEventListener("sumbit", (event) => {
     // <li>inputvalue</li>
     //7. append <li> ke <ul>
     wrapperlist.append(taskList);
+    inputform.value = "";
 });
